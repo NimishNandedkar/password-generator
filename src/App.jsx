@@ -58,7 +58,7 @@ function App() {
       />
       <button
         onClick={copyPassword}
-        className="outline-none bg-blue-500 text-white px-4 py-2 transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none"
+        className="outline-none bg-blue-500 text-white px-4 py-2 transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none rounded-r-lg rounded-none hover:ring-2"
       >
         Copy
       </button>
@@ -69,7 +69,7 @@ function App() {
         <input
           type="range"
           min={6}
-          max={100}
+          max={20}
           value={length}
           className="cursor-pointer appearance-none w-full h-2 bg-gray-700 rounded-full outline-none"
           onChange={(e) => {
